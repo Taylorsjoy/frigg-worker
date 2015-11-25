@@ -36,7 +36,7 @@ setup(
     packages=find_packages(exclude=['tests', 'tests.*']),
     include_package_data=True,
     install_requires=[
-        'click==5.1',
+        'click==6.0',
         'frigg-coverage>=1.1.1,<2.0.0',
         'frigg-settings>=1.1.1,<2.0.0',
         'docker-wrapper>=2.1,<2.2',  # rq.filter: <2.0
